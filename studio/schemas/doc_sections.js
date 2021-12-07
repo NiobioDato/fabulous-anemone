@@ -8,7 +8,7 @@ export default {
             "name": "root_docs_path",
             "title": "Root Documentation URL Path",
             "description": "The URL path under which the documentation pages will be generated. For example, value \"/\" will place all documentation pages at the site root, while value \"/docs\" will place all documentation pages under the \"/docs\" path.",
-            "initialValue": "/docs",
+            "initialValue": "/manuale",
             "validation": Rule => Rule.required()
         },
         {
